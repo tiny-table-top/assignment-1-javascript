@@ -1,0 +1,48 @@
+<!--
+    @name: Assignement1
+    @Course Code: SODV1201
+    @Program: Software Development Diploma
+    @Author: Anthony Half
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Page</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>Staff Page</h1>
+
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="marktograde.html">Mark to Grade</a>
+            <a href="weather.html">Weather Conversion</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="tableContainer">
+
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div id="current_date">
+            <script>
+                const d = new Date();
+                let date = d.toDateString();
+                document.getElementById("current_date").innerHTML = date;
+            </script>
+        </div>
+        <div>
+            <p>&copy; 2024 Anthony Half</p>
+        </div>
+    </footer>
+    
+    <script src="staff.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!--
+    @name: Assignement1
+    @Course Code: SODV1201
+    @Program: Software Development Diploma
+    @Author: Anthony Half
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Temperature Conversion</h1>
+
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="marktograde.html">Mark to Grade</a>
+            <a href="staff.html">Staff</a>
+        </div>
+    </header>
+    <main class="centerBox">
+        <div>
+            <label for="Temp">Temperature in Farenheit:</label>
+            <input type="text" id="temp" placeholder="Enter the temperature">
+            <button id="convert" onclick="convertToCelsius()">Convert to Celsius</button>
+            <p id="celsius">F to C:</p>
+            <button id="convert2" onclick="celsiusToKelvin()">Convert to Kelvin</button>
+            <p id="kelvin">C to K:</p>
+        </div>       
+    </main>
+    <footer id="footer">
+        <div id="current_date">
+            <script>
+                const d = new Date();
+                let date = d.toDateString();
+                document.getElementById("current_date").innerHTML = date;
+            </script>
+        </div>
+        <div>
+            <p>&copy; 2024 Anthony Half</p>
+        </div>
+    </footer>
+    <script src="weather.js"></script>
+</body>
+</html>

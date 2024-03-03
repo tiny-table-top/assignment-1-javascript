@@ -1,0 +1,89 @@
+/*
+    @name: Assignement1
+    @Course Code: SODV1201
+    @Program: Software Development Diploma
+    @Author: Anthony Half
+*/
+
+html {
+    resize: both;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('frieren.jpeg');
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#first {
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 55%;
+    line-height: 28px;
+    text-align: justify;
+    color: fuchsia;
+}
+
+#second {
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+    width: 55%;
+    line-height: 28px;
+    text-align: justify;
+    color: fuchsia;
+}
+
+.img1 {
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+.img2 {
+    position: absolute;
+    width: 250px;
+    margin-right: 10%;
+    margin-top: -350px;
+    right: 10px;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    display: inline;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    color: aquamarine;
+}
+
+#footer p {
+    margin: 0;
+}
+

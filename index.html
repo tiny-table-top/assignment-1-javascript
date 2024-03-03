@@ -1,0 +1,71 @@
+<!--
+    @name: Assignement1
+    @Course Code: SODV1201
+    @Program: Software Development Diploma
+    @Author: Anthony Half
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>My Profile Page</h1>
+
+        <div class="topnav">
+            <!-- <a class="active" href="index.html">Home</a> -->
+            <a href="marktograde.html">Mark to Grade</a>
+            <a href="staff.html">Staff</a>
+            <a href="weather.html">Weather Conversion</a>
+        </div> 
+    </header>
+    <main>
+        <p id="first"> 
+            Welcome to my page! I will tell you how I came to be taking a program like this.
+            It all started many moons ago when I was in high school and I took my very first computer programming 
+            course. The funny thing about me taking this course was that my family didn't even have a desktop computer 
+            at home. I knew what computers were and I always wanted to get one, however, that didn't actually happen 
+            until many many years later. And those many years later, I got myself a real crappy desktop computer. The
+            thing was a secondhand steal of a deal. Thinking about it today, that thing gave me more headaches then the
+            times I felt when I got hungover from the many parties that I used to go to. Now, to be perfectly honest, I
+            really didn't get back into computers until technology actually advanced out of the 'T9' typing that we all 
+            got to experience during text messaging people with our 2G cellphones. Then everything changed with 3G!
+            I got a 'smartphone' just like everybody else in the world. I held the internet in my hand and that's when
+            I began with unlocking phones, fixing people's laptops and basically just fuckin around.        
+        </p>
+
+        <img class="img1" src="good'ol.jpg" alt="3 kids with Dad">
+        <img class="img2" src="profile75.jpg" alt="me today">
+        <img id="cover" src="" alt="">
+
+        <p id="second">
+            So just in the past decade, that was when I took it upon myself to get all techy. From changing computer
+            OS's to changing broken screens to making a locked laptop new again with a fresh install of the operating
+            system. That began my addictive obsession with computers. Now I knew about the computer hardware and
+            somewhat knew about the software, but that said, I felt that if I didn't know the coding of programs then
+            I didn't know anything. I struggled to learn and I didn't know where to start. So after years of playing
+            with different kinds of code, I began to think that I needed to go where people learn...back to school!
+            Amazingly, coming back to school at the wise young age of 44, really isn't all that bad. I am happy with
+            the decision that I made concerning learning new skills that will give me a new career. What I did for a 
+            living before all this...well let me say this...I am a better me today, than what I once was.
+        </p>
+    </main>
+    <footer id="footer">
+        <div id="current_date">
+            <script>
+                const d = new Date();
+                let date = d.toDateString();
+                document.getElementById("current_date").innerHTML = date;
+            </script>
+        </div>
+        <div>
+            <p>&copy; 2024 Anthony Half</p>
+        </div>
+    </footer>
+</body>
+</html>

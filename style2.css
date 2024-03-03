@@ -1,0 +1,89 @@
+/*
+    @name: Assignement1
+    @Course Code: SODV1201
+    @Program: Software Development Diploma
+    @Author: Anthony Half
+*/
+
+body {
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: grey;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+
+main {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.centerBox {
+    margin: auto;
+    margin-top: 100px;
+    width: 20%;
+    border: 2px solid blue;
+    background-color: lightskyblue;
+    padding: 40px;
+    text-align: center;
+}
+
+main div {
+    display: inline;
+}
+
+main div p {
+    font-size: 25px;
+}
+
+#mark {
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 50px
+}
+
+#button {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: blue;
+}
+
+#footer {
+    text-align: center;
+    position: absolute;
+    display: inline;
+    bottom: 0;
+    padding: 10px;
+    background-color:dimgrey;
+    width: 100%;
+    color: white;
+}
+
+#footer p {
+    margin: 0;
+}

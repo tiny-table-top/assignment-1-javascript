@@ -1,0 +1,54 @@
+<!--
+    @name: Assignement1
+    @Course Code: SODV1201
+    @Program: Software Development Diploma
+    @Author: Anthony Half
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Mark to Grade</h1>
+
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="staff.html">Staff</a>
+            <a href="weather.html">Weather Conversion</a>
+        </div>
+    </header>
+    <br>
+    <main class="centerBox">
+        <div>
+            <label>Enter your mark here:</label>
+            <input type="text" id="mark">
+        </div>
+        <div id="button">
+            <button onclick="myGrade()">Calculate Grade</button>
+        </div>
+        <div>
+            <p id="grades"></p>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div id="current_date">
+            <script>
+                const d = new Date();
+                let date = d.toDateString();
+                document.getElementById("current_date").innerHTML = date;
+            </script>
+        </div>
+        <div>
+            <p>&copy; 2024 Anthony Half</p>
+        </div>
+    </footer>
+    <script src="marktograde.js"></script>
+</body>
+</html>
